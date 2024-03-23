@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb ;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +34,169 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.logo {
+  width: 30px;
+  height: 30px
+}
+.nav-link{
+  color: white !important;
+}
+.active {
+  color: #3a80f2 !important;
+}
+.btn-e {
+  background-color: #3a80f2 !important;
+  border-radius: 0 !important;
+}
+.bg-main{
+  background-color: #294166e9;
+
+}
+.line{
+
+  width: 50px;
+  height: 5px;
+  background-color: #3a80f2 ;
+}
+.main-color{
+  background-color: #000000cc
+}
+*{
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.fitcontent{
+  width: fit-content;
+}
+.hight-30{
+  height: 45vh;
+}
+video{
+  object-fit: cover;
+  transform: translatey(-30%);
+}
+
+
+
+body {
+  --sb-track-color: #464c4e;
+  --sb-thumb-color: #ffffff;
+  --sb-size: 3px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+.line-hi::after{
+  content: "";
+  width: 1px;
+  height: 130px;
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+  z-index: 0;
+}
+.cricle{
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  border: white 1px solid;
+  border-radius: 50%;
+  margin: 0 20px;
+  z-index: 4 !important;
+}
+.width-slid{
+  width: 500px;
+}
+.routet{
+  background-image: url("./Assets/images/side-dots.png");
+  background-position: center;
+}
+.border-project{
+  width: 150px;
+  height: 20px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-bottom-left-radius: 50px ;
+}
+.border-2{
+  height: 150px;
+  width: 20px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-bottom-left-radius: 50px ;
+}
+.item{
+  border: #ffffff solid 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+.edited{
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+.map {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+.editedd{
+  width: 50% !important;
+}
+@media (max-width: 767px) {
+  .editedd{
+    width: 75% !important;
+  }
+  .hight-30{
+    height: 20vh;
+  }
+  .width-slid{
+    width: 200px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .editedd{
+    width: 75% !important;
+  }
+  .hight-30{
+    height: 20vh;
+  }
+  .width-slid{
+    width: 200px;
   }
 }
