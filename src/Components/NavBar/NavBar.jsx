@@ -6,10 +6,10 @@ export default function NavBar() {
         <nav className="navbar navbar-expand-lg bg-black text-white py-5 justify-content-between fixed-top">
             <div className="container-fluid px-5">
                 <span className='fs-2 '> gamal tarek</span>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon bg-white"></span>
+                <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon "></span>
                 </button>
-                <div className="fitcontent  navbar-collapse justify-content-end" id="navbarNav">
+                <div className="fitcontent  navbar-collapse collapse  justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <NavLink className="nav-link " aria-current="page" to="portfolio">HOME</NavLink>
@@ -28,7 +28,7 @@ export default function NavBar() {
                         </li>
                     </ul>
                 </div>
-                <div className=" navbar-collapse justify-content-end " id="navbarNav">
+                <div className=" navbar-collapse collapse justify-content-end c" id="navbarNav">
                     <ul className="d-flex flex-row navbar-nav gap-3 ">
                         <li className="nav-item">
                             <a href="https://www.facebook.com/profile.php?id=100009448186323" className="text-white"> <i className="fa-brands fa-facebook"></i> </a>

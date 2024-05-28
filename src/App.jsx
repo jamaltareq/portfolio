@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Link, Router, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { useState } from 'react';
@@ -26,7 +25,6 @@ export default function App() {
   ])
   return (
     <>
-
       <RouterProvider router={routers} >
       </RouterProvider>
     </>

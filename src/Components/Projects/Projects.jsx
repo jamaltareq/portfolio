@@ -39,8 +39,8 @@ export default function Projects() {
             </div>
             <Swiper
                 slidesPerView={4}
-                centeredSlides={true}
-                spaceBetween={30}
+                centeredSlides={false}
+                spaceBetween={60}
                 grabCursor={true}
                 pagination={{
                     clickable: true,
